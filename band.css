@@ -10,17 +10,58 @@
 }
 .about{
   float: left;
-  max-width: 30rem;
+  max-width: 50rem;
   margin-right: 3rem;
 }
 
+
+
+/*Texte dans la barière déroulant (Txt labeur)*/
 .navbar-collapse .text-muted{
   color: #818a91;
 }
 
+/*Bloc contact*/
+.col-sm-4.offset-md-1.py-4{
+  float: right;
+}
+
+/*Bouton déroulant*/
+.navbar-toggler{
+margin-left: -75.5rem;
+
+}
+
+
+#nav {
+  padding-top: 1rem;
+  padding-left: 25rem;
+  font-size: 1.7rem;
+  text-align: center; /* centrer le texte */
+}
+#nav li {
+  display: inline;
+  list-style: none; /* nécessaire pour IE7 */
+}
+
+#nav a {
+  display:inline-block;
+  margin: 0 30px;
+  color: #FFFFFF;
+}
+
+.navbar.navbar-dark.bg-dark.box-shadow{
+  background-color: #343a40;
+  float: center;
+  height: 6rem;
+}
+
+/*Page centrale / Position Titre + couleur + image = Bloc*/
 .jumbotron {
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 6rem; 
+  float: center;
+  height: 80rem;
   margin-bottom: 0;
   background-color: #fff;
   background-image: url("images/back3.jpg");
@@ -30,25 +71,43 @@
 }
 
 
+
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
+/*
+@media (min-width: 768px) {
+  .container{
+    width: 787px;
+  }
+*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+.jumbotron h1{
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 45rem; 
+  color: #343a40;
 
-
+}
+/*Typo de titrage*/
 
 .jumbotron-heading {
   font-weight: 300;
 }
 
-.jumbotron .container {
-  width: 50rem;
+/*
+  .container {
+  max-width: 50rem;
   background: rgba(255,255,255,0.2);
   padding: 2rem;
   color: white;
-}
+}*/
+
 
 .jumbotron p{
   color: white;
@@ -56,7 +115,7 @@
 }
 
 .album{
-  padding-top: 3rem;
+  padding-top: 10rem;
   padding-bottom: 3rem;
   background-color: #f7f7f7;
 }
@@ -90,10 +149,9 @@ footer p {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); 
 
-
 }
 
-.div.container.d-flex.justify-content-between{
-
+.navbar{
+  margin-bottom: 0px;
 }
 
