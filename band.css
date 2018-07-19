@@ -1,18 +1,11 @@
 
 
-.navbar-collapse .container-fluid{
-  padding: 2rem 2.5rem;
-  border-bottom: 1px solid #55595c;
-}
+
 
 .navbar-collapse h4{
   color: #818a91;
 }
-.about{
-  float: left;
-  max-width: 50rem;
-  margin-right: 3rem;
-}
+
 
 ul
 {
@@ -39,11 +32,9 @@ margin-left: -75.5rem;
 
 /*Page centrale / Position Titre + couleur + image = Bloc*/
 .jumbotron {
-  padding-top: 6rem;
-  padding-bottom: 6rem; 
+  padding-top: -5rem;
   float: center;
-  height: 80rem;
-  margin-bottom: 0;
+  height: 70rem;
   background-color: #fff;
   background-image: url("images/back3.jpg");
   background-repeat: no-repeat;
@@ -51,7 +42,9 @@ margin-left: -75.5rem;
   background-size: cover;
 }
 
-
+#jumbotron img{
+  margin-top: -2px;
+}
 
 
 @media (min-width: 768px) {
@@ -104,6 +97,10 @@ a {
   font-size: 20px;
   list-style: none;
 
+}
+
+.container{
+  margin-top: -15px;
 }
 
 
