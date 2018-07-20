@@ -1,0 +1,140 @@
+
+
+
+
+/*responsive method*/
+@media (min-width: 768px) {
+  .jumbotron-heading {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+/*Cambrai thin*/
+.jumbotron p{
+   font-family: 'Rubik', sans-serif;
+   font-weight: thin;
+   font-size: 65px;
+   color: #000000;
+
+  /* color: #343a40; */
+
+}
+@media (min-width: 1000px) {
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+.boxed{
+ 
+  padding-top: calc(var(--jumbotron-padding-y) * 2);
+  padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+
+  color: #000000;
+
+  font-family: 'Rubik', sans-serif;
+   font-weight: normal;
+   text-align: justify;
+   font-size: 18px;
+   margin-right: 55rem;
+   margin-left: 57rem;
+
+
+ }
+}
+
+/*barre nav*/
+a {
+  color: #343a40;
+  margin-left: 0px;
+
+}
+
+.text-white.a{
+  color:blue;
+}
+
+/*Couleur lien Fb*/
+.text-whiteFb{
+  color: blue;
+}
+
+.nav-item{
+  display: inline;
+}
+
+.row{
+  margin-top: 15px;
+}
+
+/*Menu*/
+.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4{
+  background-color: #343a40;
+  text-align: justify;
+  font-size: 15px;
+  list-style: none;
+
+}
+
+.container{
+  margin-top: -15px;
+}
+
+
+/*Typo de titrage*/
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+.jumbotron-heading  {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 45rem; 
+  color: #000000;
+  margin-top: 100px;
+text-align: center;
+
+
+
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+.lead.text-muted{
+  font-family: 'Rubik', sans-serif;
+  font-weight: thin;
+  font-size: 25px;
+text-align: center;
+}
+
+
+ 
+
+
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+
+
+
+
+
