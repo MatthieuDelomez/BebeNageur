@@ -22,14 +22,20 @@ ul
 }
 
 
+
+.containerimage{
+  height: 70rem;
+background-image: url("images/back3.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
 /*Page centrale / Position Titre + couleur + image = Bloc*/
 .jumbotron {
   padding-top: -5rem;
   height: 70rem;
-  background-image: url("images/back3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
 }
 
 #jumbotron img{
@@ -62,20 +68,26 @@ ul
 
 /*Typo de titrage*/
 @import url('https://fonts.googleapis.com/css?family=Rubik');
-.jumbotron h1 {
+.titreh1 {
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
   font-size: 65px;
      color: #000000;
-  margin-top: 400px;
+  margin-top: 27%;
 text-align: center;
+}
 
 
+.titrage {
+  margin: 28%;
+  background-color: #ffffff;
+  opacity: 0.6;
+  width: 47%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 /*Cambrai thin*/
-.jumbotron p {
+.titre2 {
    font-family: 'Rubik', sans-serif;
    font-weight: thin;
    font-size: 65px;
@@ -151,4 +163,5 @@ a {
 .navbar{
   margin-bottom: 0px;
 }
+
 

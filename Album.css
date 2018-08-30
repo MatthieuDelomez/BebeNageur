@@ -35,7 +35,7 @@ a {
 -------------------------------------------------- */
 
 #myCarousel{
-  margin-top: -2rem;
+  margin-top: 0rem;
 }
 
 /* Carousel base class */
@@ -50,7 +50,7 @@ a {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 58rem;
+  height: 50rem;
   margin-bottom: 0px;
   background-color: #FFFFFF;
 }
@@ -58,7 +58,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 
